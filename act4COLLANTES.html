@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Spots</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: violet;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 2em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .card {
+            width: 300px;
+            margin: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .card-link {
+            display: block;
+            text-align: right;
+            font-size: 0.9em;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .card-link:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tourist Spots in Asia, Europe, and America</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <a href="C:\Users\Mabute\Desktop\COLLANTES\cherry.jpg" target="_blank">
+                <img src="C:\Users\Mabute\Desktop\COLLANTES\cherry.jpg" alt="cherry">
+            </a>
+            <div class="card-content">
+                <div class="card-title">Japan</div>
+                <div class="card-text">Cherry blossom, or sakura, is a symbol of spring and beauty in Japan. It is a tradition to enjoy the sight of the delicate pink flowers, which usually bloom from late March to early April in most parts of the country. Some of the best places to see cherry blossom in Japan are Kyoto, Tokyo, and Osaka.</div>
+                <a href="https://travel.usnews.com/rankings/best-asian-vacations/" class="card-link">Learn more</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="C:\Users\Mabute\Desktop\COLLANTES\paris.jpg" target="_blank">
+                <img src="C:\Users\Mabute\Desktop\COLLANTES\paris.jpg" alt="Paris">
+            </a>
+            <div class="card-content">
+                <div class="card-title">Paris</div>
+                <div class="card-text">Paris is the capital and most populous city of France, with an estimated population of 2,102,650 as of 20231 It is also a global center of culture, fashion, and gastronomy, and hosts many famous landmarks such as the Eiffel Tower, the Louvre, and Notre-Dame2 Paris is one of the host cities for the 2024 Summer Olympics, which will take place from July 26 to August 11.</div>
+                <a href="https://travel.usnews.com/Paris_France/" class="card-link">Learn more</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="C:\Users\Mabute\Desktop\COLLANTES\new york.jpg" target="_blank">
+                <img src="C:\Users\Mabute\Desktop\COLLANTES\new york.jpg" alt="New York">
+            </a>
+            <div class="card-content">
+                <div class="card-title">New York</div>
+                <div class="card-text">New York is a state in the northeastern United States, as well as the name of its most populous and famous city. New York City is known for its cultural diversity, iconic landmarks, and global influence. Some of the attractions in New York City are the Statue of Liberty, Central Park, the Empire State Building, and Broadway.</div>
+                <a href="https://travel.usnews.com/New_York_NY/" class="card-link">Learn more</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
